@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "python-django"
+version = "0.1.0"
+description = ""
+authors = ["Meshcheryakovd200000 <d200000@mail.ru>"]   # строка, а не словарь
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+django = "4.2.*"
+djangorestframework = ">=3.16.1,<4.0.0"
+django-rest-framework = "^0.1.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
